@@ -31,3 +31,18 @@ Vue.config.errorHandler = (err, vm) => {
   console.error(err);
 };
 ```
+
+## Sample output
+
+```
+
+TypeError: foo is not a function
+
+Component State:
+
+{"props":[],"data":[],"computed":[],"refs":[],"injected":[],"route":[{"key":"$route","value":{"_custom":{"type":"router","abstract":true,"value":{"path":"/home","query":{},"params":{},"fullPath":"/home","name":"Home","meta":{}}}}}],"vuexGetters":[],"observables":[],"attrs":[]}
+
+Store State:
+
+{"moduleA":{},"moduleB":{}}
+```
