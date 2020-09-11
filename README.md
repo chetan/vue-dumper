@@ -1,4 +1,4 @@
-# vuex-dumper
+# vue-dumper
 
 A vue.js utility for dumping application state. Useful for debugging and error
 reporting.
@@ -6,9 +6,9 @@ reporting.
 ## Installation
 
 ```sh
-npm save vuex-dumper
+npm save vue-dumper
 # or
-yarn add vuex-dumper
+yarn add vue-dumper
 ```
 
 ## Usage
