@@ -2,8 +2,9 @@
   "name": "vue-dumper",
   "version": "1.0.1",
   "description": "vue.js utility for dumping application state",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "build": "mkdir -p dist; node_modules/.bin/babel src --out-dir dist/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/chetan/vue-dumper/issues"
   },
-  "homepage": "https://github.com/chetan/vue-dumper#readme"
+  "homepage": "https://github.com/chetan/vue-dumper",
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5"
+  }
 }
