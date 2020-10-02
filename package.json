@@ -1,6 +1,6 @@
 {
   "name": "vue-dumper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "vue.js utility for dumping application state",
   "main": "dist/index.js",
   "scripts": {
