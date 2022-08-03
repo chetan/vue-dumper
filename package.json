@@ -1,6 +1,6 @@
 {
   "name": "vue-dumper",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "vue.js utility for dumping application state",
   "main": "dist/index.js",
   "scripts": {
@@ -12,7 +12,17 @@
     "url": "git+https://github.com/chetan/vue-dumper.git"
   },
   "keywords": [
-    "vuejs"
+    "vue",
+    "vuejs",
+    "vue2",
+    "dump",
+    "debug",
+    "debugging",
+    "error",
+    "troubleshooting",
+    "log",
+    "logging",
+    "console"
   ],
   "author": "Chetan Sarva <chetan@pixelcop.net>",
   "license": "MIT",
